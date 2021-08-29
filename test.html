@@ -1,5 +1,7 @@
 <html>
     <head>
+        <link rel="stylesheet" href="test.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=fire">
         <style>
             li {
                 display:  block;
@@ -8,7 +10,28 @@
         
     </head>
     <body>
-        <dl>
+
+        <table style="width:100%" id="tab">
+            <tr>
+                <th style="width: 33%;">ABC</th>
+                <th style="width: 33%;">XYZ</th>
+                <th style="width: 33%;">PQR</th>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>456</td>
+                <td>789</td>
+            </tr>
+        </table>
+
+        <p id="makeshift" class="font-effect-fire">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+
+        <dl id="dtable">
             <dt>abc</dt>
             <dd>alphabet</dd>
             <dt><a href="https://www.kithare.cf" target="ifr">123</a></dt>
@@ -18,6 +41,14 @@
             <li>123</li>
             <li>abc</li>
         </ul>
-        <iframe name="ifr" src="index.html" width="1000" height="500" title="EEEEEEEE"></iframe>
+        <!--<iframe name="ifr" src="index.html" width="1000" height="500" title="EEEEEEEE"></iframe>-->
+
+        <form action="index.html">
+            <select id="character" name="character">
+                <option value="kazuha">abc</option>
+                <option value="tartaglia">123</option>
+            </select>
+            <input type="submit" name="submit">
+        </form>
     </body>
 </html>

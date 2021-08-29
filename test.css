@@ -1,0 +1,40 @@
+#dtable {
+    background-color: rgb(204, 199, 199);
+    border-style: double;
+    border-color: red blue green;
+    border-left: maroon 10px solid;
+    border-top-width: thick;
+    border-bottom-width: thick;
+    border-right-width: thick;
+    padding-left: 20px;
+    padding-top: 5px;
+    outline: 10px red solid;
+}
+
+
+#makeshift {
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-indent: 5px;
+    padding: 10px;
+    width: 2000px;
+    font-family:Audiowide, Courier, monospace;
+    max-width: fit-content;
+    text-align: right;
+    color: blue;
+    background-color: yellow;
+}
+
+#tab, td{
+    border:thin solid red;
+    border-collapse:collapse;
+}
+
+th{
+    border: thick solid brown;
+    border-collapse: collapse;
+}
+
+tr:not(:first-child):hover{
+    background-color: yellow;
+}
